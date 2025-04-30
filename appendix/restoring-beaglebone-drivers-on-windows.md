@@ -5,7 +5,7 @@ Newer versions of Windows will occasionally reset the drivers for BeagleBones, m
 1. Connect the BeagleBone to the computer using USB and confirm it's powered on
 2.  Open "Device Manager" on your computer. Under the "View" menu, ensure that "Show hidden devices" is checked
 
-    <figure><img src="../.gitbook/assets/Restore BB drivers 2022-10-13 101442 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Restore BB drivers 2022-10-13 101442.png" alt=""><figcaption></figcaption></figure>
 3. Expand the Ports section. If the BB is connected and powered on you should see one of these indicating "active" with the darker shading
 4. Right click on the active port and select "Update Driver"
 

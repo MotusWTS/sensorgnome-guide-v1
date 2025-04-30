@@ -11,9 +11,9 @@ _CTT stopped manufacturing these dongles in early 2023. However, they have gener
 * [**AdaFruit Feather 32u4 Radio (RFM69HCW)**](https://www.adafruit.com/product/3077)
 * [**uFL surface mount antenna connector**](https://www.adafruit.com/product/1661)
 * (2-3) [M1-0.25 x 2mm screws](https://www.amazon.com/uxcell-Stainless-Phillips-Furniture-Connection/dp/B0C1SCVNDZ?th=1) (or similar), for securing Feather to case
-* [**uFL to SMA bulkhead adapter**](https://www.amazon.com/gp/product/B07P71FX45/ref=ox\_sc\_act\_title\_1?smid=A1TE63QTMAEOQO\&th=1) (a shorter, more flexible cable is preferred)
+* [**uFL to SMA bulkhead adapter**](https://www.amazon.com/gp/product/B07P71FX45/ref=ox_sc_act_title_1?smid=A1TE63QTMAEOQO\&th=1) (a shorter, more flexible cable is preferred)
 * [**USB-A to microUSB cable**](https://www.amazon.com/SABRENT-Charging-Android-Premium-Charger/dp/B011KMSNXM?th=1) **or** [**USB-C to microUSB cable**](https://www.adafruit.com/product/3879)**,** depending on your computer's USB port availability. If you can use a USB-A cable with your computer, and get a short one similar to the example linked, you can use it later when installing the CTT Dongle as part of the SensorGnome.
-* **Arduino Feather Programmer and CTT Dongle firmware bundle below. **_**NOTE:** The firmware currently included in the below bundle is the last commercially-used firmware on the CTT dongle. Thus it does NOT require the jumper wire described and referenced elsewhere in Motus mailing list to function properly. If the firmware provided here is updated to the newest release requiring the jumper wire, these instructions will be modified to reflect that change._
+* **Arduino Feather Programmer and CTT Dongle firmware bundle below.&#x20;**_**NOTE:** The firmware currently included in the below bundle is the last commercially-used firmware on the CTT dongle. Thus it does NOT require the jumper wire described and referenced elsewhere in Motus mailing list to function properly. If the firmware provided here is updated to the newest release requiring the jumper wire, these instructions will be modified to reflect that change._
 
 {% file src="../.gitbook/assets/CTT_dongle_Feather_programmer_w_firmware.zip" %}
 
