@@ -1,5 +1,9 @@
 # Connection and folder path cheatsheet
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 This is a complete reference of the network addresses and folder paths, organized by receiver type (RPi vs BB) and method of connection.
 
 {% tabs %}

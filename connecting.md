@@ -1,5 +1,9 @@
 # Connecting to your SensorGnome
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 In order to copy detection data from the SG, to check the SG’s live status in the Web Interface, or to apply a software patch, you must establish a connection between the SensorGnome and your computer. The actual method used will depend on whether you are using a RPi or BB SG, but the end result is similar in each case. Click on the appropriate tab below to switch between instructions for Raspberry Pi and BeagleBone SGs.
 
 ## Connection steps for Raspberry Pi & BeagleBone SensorGnomes

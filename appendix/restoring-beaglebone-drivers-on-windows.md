@@ -1,5 +1,9 @@
 # Restoring BeagleBone drivers on Windows
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 Newer versions of Windows will occasionally reset the drivers for BeagleBones, making it impossible to connect to them. You can reset the driver selection using the following steps.
 
 1. Connect the BeagleBone to the computer using USB and confirm it's powered on

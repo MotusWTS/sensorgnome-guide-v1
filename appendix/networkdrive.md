@@ -1,5 +1,9 @@
 # Accessing BeagleBone as a network drive
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 Once a BeagleBone is connected to your computer, you can access it as a shared network drive either in Windows Explorer or the Mac equivalent. Through this method you can copy detection data as well as modify configuration files. It may also be possible to access data files on a BB even if you cannot access the Web Interface or create an FTP connection.&#x20;
 
 This uses a connection protocol called SMBv1, which on newer versions of Windows has been disabled in favour of more secure version. You will likely have to re-enable this feature in order to access a BeagleBone as a networked drive.

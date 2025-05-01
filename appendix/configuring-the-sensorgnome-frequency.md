@@ -7,6 +7,10 @@ description: >-
 # Configuring the SensorGnome frequency
 
 {% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
+{% hint style="danger" %}
 This is a critical step for any SensorGnome (or SensorStation) listening for Lotek tags outside the Western Hemisphere. This only affects Lotek compatible radios (e.g. FunCube, RTL-SDR, etc) and tags.&#x20;
 {% endhint %}
 

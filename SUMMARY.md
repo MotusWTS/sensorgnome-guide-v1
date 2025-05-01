@@ -25,7 +25,6 @@
 * [Connecting to a BeagleBone using an Ethernet cable](appendix/bbethernet.md)
 * [Using Bonjour Browser to find the IP address](appendix/bonjourbrowser.md)
 * [Uploading a local tag database](appendix/localtagdb.md)
-* [How to build a SensorGnome](appendix/buildsg.md)
 * [Reflash FUNcube dongle firmware](appendix/fcdfirmware.md)
 * [Motus data file formats](appendix/fileformats.md)
 

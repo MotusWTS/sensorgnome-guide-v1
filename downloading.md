@@ -1,5 +1,9 @@
 # Downloading detection data
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 The raw radio data that the SensorGnome records consists of the individual radio pulses detected, as well as some associated information, such as the precise time each pulse was detected, the USB port (e.g. antenna) it was detected on, and the strength of the signal. The data for each pulse is written on its own line in a text file, and then at the end of each hour the text file is compressed into a _.gz_ file. All the detection files are then moved into a folder for each day that the SG was recording (recall that the SG keeps time in UTC/GMT time).
 
 In order to identify the tags that have been detected by the SG, the raw data must be copied from the SG and uploaded to the Motus server, where it is processed and cross-referenced against a database of known deployed tags. Many newer stations, and in particular Motus stations powered by CTT SensorStations, are connected to the internet and sync their data to the Motus server on an automated schedule. However the majority of Motus stations still require a physical visit in order to download data from the receiver.&#x20;

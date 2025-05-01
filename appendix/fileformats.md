@@ -6,6 +6,10 @@ description: >-
 
 # Motus data file formats
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 ## 1. File types
 
 ### 1a. SensorGnome format

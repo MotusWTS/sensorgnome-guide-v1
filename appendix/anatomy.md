@@ -1,5 +1,9 @@
 # Anatomy of a SensorGnome
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 ## What's inside a SensorGnome?
 
 Both RPi and BB SensorGnome consists of the same core components:

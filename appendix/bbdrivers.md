@@ -1,5 +1,9 @@
 # Installing BeagleBone drivers
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 The drivers for BeagleBone SensorGnomes can be found in the table below (copied from the [BeagleBone homepage](http://beagleboard.org/getting-started)).&#x20;
 
 | Operating System                                                                  | USB Drivers                                                                                                                                                                                                                           | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |

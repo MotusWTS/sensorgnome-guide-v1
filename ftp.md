@@ -1,5 +1,9 @@
 # Establishing an FTP connection
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 The recommended method of transferring the detection data and other files between the SG and your computer is with an FTP connection. We suggest the free and open-sourced FTP client [FileZilla](https://app.gitbook.com/s/-MUycJzJD9lIBH53r7l2/filezilla-project.org/), which is what these instructions here are based on, though any FTP client will do.&#x20;
 
 **1)** Connect to your SensorGnome using the instructions above. Confirm you are connected by accessing the Web Interface. If you cannot access the Web Interface there is a very good chance you will not be able to establish an FTP connection either.&#x20;

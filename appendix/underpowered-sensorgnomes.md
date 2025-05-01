@@ -7,6 +7,10 @@ description: >-
 
 # Underpowered SensorGnomes
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 ## What is an underpowered SensorGnome?
 
 When a SensorGnome isn't receiving enough power -- that is, the voltage and/or current is lower than the device is rated for -- it can result in a malfunctioning station that doesn't collect data.&#x20;

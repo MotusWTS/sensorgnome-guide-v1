@@ -1,5 +1,9 @@
 # CTT Motus receiver dongles for 434 MHz (dual-mode) capability on SensorGnome
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 Once you have the SensorGnome loaded with the necessary software to detect CTT LifeTags/ PowerTags (i.e., it's "dual-mode"), you will require a USB receiver dongle for each antenna listening at 434 MHz. These are often referred to as "CTT Motus dongles." &#x20;
 
 {% hint style="info" %}

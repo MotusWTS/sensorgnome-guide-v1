@@ -1,5 +1,9 @@
 # Recovering a BeagleBone that can no longer be reimaged
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 If you are unable to re-image your BeagleBone Black using the regular method, try these steps.
 
 {% hint style="info" %}

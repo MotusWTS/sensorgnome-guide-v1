@@ -6,6 +6,10 @@ description: >-
 
 # What to bring
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 Before you visit a SensorGnome, it's important to have a few key items and software on hand or on your computer. Some of these are absolutely essential while others can save you time and headaches in the future if you already have them with you.
 
 The following checklist is broken down by receiver type. Essential, or very important, items are indicated with **solid circles** while optional (but often useful) items are represented by **hollow circles**.

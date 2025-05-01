@@ -1,5 +1,9 @@
 # Using Bonjour Browser to find the IP address
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 Typically a Raspberry Pi SG can be connected to using an Ethernet cable by visiting `http://sgpi.local` in either Firefox or a Chrome-based browser.
 
 This method relies on networking software called Bonjour to establish the network connection between the RPi and your computer. Bonjour is installed as part of iTunes, but can also be downloaded separately from Apple. Mac computers come with Bonjour already pre-installed.

@@ -1,5 +1,9 @@
 # Reflash FUNcube dongle firmware
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 ## Introduction
 
 FUNcube Dongles are a component used in [SensorGnomes](https://sensorgnome.org/) and [CTT SensorStations](https://celltracktech.com/) for listening to tags developed by [Lotek Wireless](https://lotek.com/). They were originally developed as a teaching tool for satellite communications and have been repurposed for many custom radio projects.

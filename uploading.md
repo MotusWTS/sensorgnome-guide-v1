@@ -1,5 +1,9 @@
 # Uploading detection data
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 ## Uploading data to Motus
 
 Detection data recording by the SG represents individual radio pulses and does not include any information about the tags that might have transmitted the signals.

@@ -1,5 +1,9 @@
 # Data syncing over the Internet
 
+{% hint style="danger" %}
+You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
+{% endhint %}
+
 Configuring your SensorGnome to sync detection data automatically results in more up-to-date data, fewer trips to visit a station, and more timely identification (and resolution) of any issues with the receiver. Wherever possible, SG's should be connected to the Internet.
 
 ## Option 1: Wired internet over Ethernet
