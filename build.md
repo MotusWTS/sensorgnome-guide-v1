@@ -1,4 +1,4 @@
-# How to Build a Raspberry Pi Based Sensorgnome
+# How to Build a Raspberry Pi Based SensorGnome
 
 ## Introduction
 
@@ -24,7 +24,7 @@ See [Sensorgnome.org](https://sensorgnome.org/) for more information.
 
 ![image](.gitbook/assets/finished_sg.jpg)
 
-*A finished Sensorgnome, ready to be deployed.*
+*A finished SensorGnome, ready to be deployed.*
 
 ## Assembling the GPS HAT
 
@@ -129,7 +129,7 @@ Install the Raspberry Pi + GPS HAT in the Raspberry Pi Case.
 
 ![image](.gitbook/assets/finished_sg.jpg)
 
-*A finished Sensorgnome.*
+*A finished SensorGnome.*
 
 
 ## Configuring the Raspberry Pi
@@ -140,7 +140,7 @@ Install the Raspberry Pi + GPS HAT in the Raspberry Pi Case.
 2.  Plug the *MicroSD card adaptor* into your laptop.
 3.  Format the *MicroSD* card as **VFAT** or **FAT32** file system.
 4.  [Download the latest software from
-    SensorGnome.org.](https://public.sensorgnome.org/Raspberry_Pi_Sensorgnome/)
+    SensorGnome.org.](https://public.sensorgnome.org/Raspberry_Pi_SensorGnome/)
 5.  Unzip the contents of the software package onto the *MicroSD card*.
 6.  Safely remove the *MicroSD card* from your laptop.
 7.  Insert the *MicroSD card* into the SD card slot of your *Raspberry

@@ -1,9 +1,9 @@
 How to Change the Wi-Fi Settings on Raspberry Pi
 ================================================
 
-![A finished Sensorgnome, ready to be deployed.](.gitbook/assets/finished_sg.jpg)
+![A finished SensorGnome, ready to be deployed.](.gitbook/assets/finished_sg.jpg)
 
-*A finished Sensorgnome, ready to be deployed.*
+*A finished SensorGnome, ready to be deployed.*
 
 
 SensorGnomes are an essential component of the [Motus Wildlife Tracking
@@ -43,7 +43,7 @@ See [Sensorgnome.org](https://sensorgnome.org/) for more information.
 6.  You should see a web page that says *'I am your SensorGnome'* with a
     bunch of live information about the device. A full description of
     the webpage will be described later. For now, the fact this page is
-    loading will inform you that the Sensorgnome software has correctly
+    loading will inform you that the SensorGnome software has correctly
     been installed and that you have successfully connected to it.
 
 [- Back to Top -](#)
@@ -88,7 +88,7 @@ cable into the *Raspberry Pi's* **Ethernet** port and your **laptop**.
 4.  To navigate through your SensorGnome's storage, you can use either
     of frames 2 or 3 but note only frame 3 shows files (frame 2 is for
     navigation only!).
-5.  Navigate to the 'root' of the Sensorgnome, either by clicking on the
+5.  Navigate to the 'root' of the SensorGnome, either by clicking on the
     folder '/' in frame 2 or by clicking the '..' folder in frame 3
     until you can no longer navigate further.
 6.  From this location, navigate to the following folder: “boot” /

@@ -52,7 +52,7 @@
 
 &#x20; 4\. Next, select the ‘Config’ tab.
 
-&#x20; 5\. Under the “Sensorgnome Information” widget, click the pencil <img src=".gitbook/assets/4" alt="" data-size="line"> icon and edit the following inputs:
+&#x20; 5\. Under the “SensorGnome Information” widget, click the pencil <img src=".gitbook/assets/4" alt="" data-size="line"> icon and edit the following inputs:
 
 * **Upload username:** your Motus username.
 * **Upload password:** your Motus password.
