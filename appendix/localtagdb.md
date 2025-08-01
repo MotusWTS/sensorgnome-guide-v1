@@ -12,22 +12,37 @@ You are viewing the V1 Legacy SensorGnome user guide. This software has not been
 
 ## Introduction
 
-If you are installing a SensorGnome or SensorStation that detects Lotek tags, it is often useful to know whether it is able to detect tags in real time, particularly if you are deploying tags in the vicinity. Thankfully this is possible by loading a local tag database on to the internal storage of the device. When the SensorGnome boots up, it checks for a tag database and will display any of those tags it "hears" on its web interface.&#x20;
+If you are installing a SensorGnome or SensorStation that detects Lotek tags, it is often useful to know whether it is able to detect tags in real time, particularly if you are deploying tags in the vicinity. Thankfully this is possible by loading a local tag database on to the internal storage of the device. When the SensorGnome boots up, it checks for a tag database and will display any of those tags it "hears" on its web interface.
 
 Viewing your live tag detections can also be useful when deploying tags or as a make-shift manual tracking device when a Lotek receiver is unavailable.
 
-{% hint style="warning" %}
-It's important to remember the limitations of this method: it will only search for the tags that it has been provided, and it is incapable of discerning or handling ambiguous tag IDs.
+{% hint style="danger" %}
+There are some **very** important differences to be aware of between the tagfinder that runs on a SG and the one that runs on the Motus Server.
 {% endhint %}
 
-This works by using a local version of the tag finder algorithm ([`find_tags_unifile`](https://github.com/MotusWTS/find\_tags)) in comparison with the tag recordings provided during registration. Note that this local version differs from the version found on Motus, mainly in that Motus searches for tags from all projects across the network (but only those known to be actively deployed during the given time period) whereas this method will only compare raw radio data with the tag patterns it has been provided, regardless of deployment period.
+The local tagfinder differs from the version found on Motus, in some key respects:
+
+* It is only aware of the tags that you have provided, so its candidate list is minimal. It might therefore assign raw data to one of your tags even if a more suitable candidate exists in the Motus database
+* It does not use deployment period or estimated battery life to assign data to candidate tags so it might "detect" a tag that has been dead for many years
+* It uses none of the [filters that are applied](https://docs.motus.org/en/about-motus/how-data-are-processed/public-data-filters) on the Motus website (and in the R data)
+
+All of this means that you will very often get different results on the local tagfinder as with data processed by the Motus server. Despite this, uploading a local tag database is recommended any time you are deploying tags.
 
 ## Steps
 
 ### Download the Tag Database
 
-1. Navigate to your project's [Manage Tags](https://motus.org/data/project/tags) page and click on the blue "Download tag database" button on the right hand side
-2. Download the `.sqlite` tag database. The first link contains all tags currently registered to this project, whereas the links below are older format that summarized by yearly quarter. In nearly all cases you will want the first link.&#x20;
+1. Navigate to your [project's tag management pages ](http://motus.org/data/project/tags)and click the "Download tag database" button
+
+<figure><img src="../.gitbook/assets/2025-08-01_143706.png" alt=""><figcaption></figcaption></figure>
+
+1. Download the first option. This will contain all the tags currently registered to your project.
+
+<figure><img src="../.gitbook/assets/2025-08-01_144708.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+The additional options seen above are an earlier, depcreated, format that was summarized by yearly quarter. These will only be visible for older projects, and will almost never be needed.
+{% endhint %}
 
 ### Upload the tag database to your station
 
@@ -53,7 +68,7 @@ You are done! You can now view the ["live known tags" pane](../webinterface.md#p
 
 ## Merging multiple tag databases into one
 
-As only one tag database can be loaded onto a SensorGnome at any given time, it is sometimes necessary to merge multiple tag databases together.  You can use or modify the script below to merge multiple databases in R.
+As only one tag database can be loaded onto a SensorGnome at any given time, it is sometimes necessary to merge multiple tag databases together. You can use or modify the script below to merge multiple databases in R.
 
 ```
 ### merge tag databases ####

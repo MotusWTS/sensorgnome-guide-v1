@@ -1,5 +1,9 @@
 # How to install the new SensorGnome software
 
+{% hint style="warning" %}
+This page has been superseded by the [V2 SensorGnome guide](https://app.gitbook.com/o/-MVWgFn6bEOx4PAd0d5G/s/Grf8Wg5oUFTJbWHxHdF7/).&#x20;
+{% endhint %}
+
 ## Requirements
 
 * MicroSD card with _at least_ 16 GB (we recommend 32 GB, but more is also fine).
@@ -50,19 +54,19 @@
 
 ![](.gitbook/assets/3)
 
-&#x20; 4\. Next, select the ‘Config’ tab.
+4\. Next, select the ‘Config’ tab.
 
-&#x20; 5\. Under the “SensorGnome Information” widget, click the pencil <img src=".gitbook/assets/4" alt="" data-size="line"> icon and edit the following inputs:
+5\. Under the “SensorGnome Information” widget, click the pencil <img src=".gitbook/assets/4" alt="" data-size="line"> icon and edit the following inputs:
 
 * **Upload username:** your Motus username.
 * **Upload password:** your Motus password.
 
-&#x20; 6\. Click the green check mark <img src=".gitbook/assets/5" alt="" data-size="line"> once finished. You should see the ‘Motus login’ status to the left read ‘OK’.
+6\. Click the green check mark <img src=".gitbook/assets/5" alt="" data-size="line"> once finished. You should see the ‘Motus login’ status to the left read ‘OK’.
 
 ![](.gitbook/assets/6)
 
-&#x20; 7\. If any data exist on the SensorGnome, you can upload it now by selecting the ‘Files’ tab and clicking the ‘Upload’ button.
+7\. If any data exist on the SensorGnome, you can upload it now by selecting the ‘Files’ tab and clicking the ‘Upload’ button.
 
 ![](.gitbook/assets/7)
 
-:tada:  Congratulations, you have successfully connected your SensorGnome to the internet!
+:tada: Congratulations, you have successfully connected your SensorGnome to the internet!

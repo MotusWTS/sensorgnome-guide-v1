@@ -8,12 +8,12 @@ One of the first steps in troubleshooting is to ensure that you have the most up
 
 {% tabs %}
 {% tab title="Raspberry Pi" %}
-## Raspberry Pi SensorGnome
+### Raspberry Pi SensorGnome
 
 For Raspberry Pi SensorGnomes, the software runs entirely off the MicroSD card; if the proper software isn’t present on the MicroSD card, the RPi SG won’t function properly. This can cause issues for teams who are unaware of this – and who expect to be able to simply swap out one card without ensuring that the new card has the proper software on it. But it also makes updating the software with a clean installation very simple; all you need to do is copy the software files onto a blank SD card.
 
 {% hint style="warning" %}
-Certain SD cards models have failed when running on Rasperry Pis. To reduce the likelihood of an SD card failure, try to use [an SD card from this list of known models](https://elinux.org/RPi\_SD\_cards#Working\_.2F\_Non-working\_SD\_cards).
+Certain SD cards models have failed when running on Rasperry Pis. To reduce the likelihood of an SD card failure, try to use [an SD card from this list of known models](https://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -22,7 +22,7 @@ Always ensure that the MicroSD card you use with an RPi SG has the software copi
 
 **1)** Download the most recent Raspberry Pi SG software. Currently this is the October 12, 2018 version.
 
-* Direct download link: [SGPI-2018-10-12\_LIWIXI.ZIP](https://public.sensorgnome.org/Raspberry\_Pi\_Sensorgnome/SGPI-2018-10-12\_LIWIXI.ZIP)
+* Direct download link: [SGPI-2018-10-12\_LIWIXI.ZIP](https://public.sensorgnome.org/Raspberry_Pi_Sensorgnome/SGPI-2018-10-12_LIWIXI.ZIP)
 * This is a compressed .zip file which will need to be “unzipped” prior to use. Most modern computers come equipped with the ability to handle .zip files.
 
 **2)** Insert a blank or recently formatted MicroSD into your computer.
@@ -39,17 +39,17 @@ Always ensure that the MicroSD card you use with an RPi SG has the software copi
 {% endtab %}
 
 {% tab title="BeagleBone" %}
-## BeagleBone SensorGnome
+### BeagleBone SensorGnome
 
 The software that runs the BeagleBone SG is installed onto the internal storage of the BeagleBone. In order to upgrade or re-install the software you need to use a designated installation disk which contains the software image on a MicroSD card. This process is often referred to as _re-imaging_ the BeagleBone. Re-imaging a BB SG will overwrite whatever existing software is already installed on the BB. However it will not overwrite any detection data present on the BB SG, so it can be a helpful first step in restoring a BB SG that you are having trouble connecting to.
 
-### **Creating an image disk**
+#### **Creating an image disk**
 
-**1)** Download the latest software version for the BB SG. Currently this is the 2017-03-16 version. Direct download link: [sensorgnome\_image\_2017-03-06\_15-33-00.img.7z](https://public.sensorgnome.org/Beaglebone\_Sensorgnome\_Images/sensorgnome\_image\_2017-03-06\_15-33-00.img.7z)
+**1)** Download the latest software version for the BB SG. Currently this is the 2017-03-16 version. Direct download link: [sensorgnome\_image\_2017-03-06\_15-33-00.img.7z](https://public.sensorgnome.org/Beaglebone_Sensorgnome_Images/sensorgnome_image_2017-03-06_15-33-00.img.7z)
 
 This file is a compressed _.7z_ file. In order to uncompress it you will need 7zip installed. Your computer may already have this installed, but if not, [you can find it at this link](https://www.7-zip.org/). The uncompressed file will have an _.img_ extension.
 
-**2)** Download [balenaEtcher](https://www.balena.io/etcher/?), a free and open-sourced program for creating disk images, and click “Select Image,” where you can select the the _.img_ file.&#x20;
+**2)** Download [balenaEtcher](https://www.balena.io/etcher/?), a free and open-sourced program for creating disk images, and click “Select Image,” where you can select the the _.img_ file.
 
 **3)** Select the MicroSD card in the next step, and then click “Flash!”.
 
@@ -61,7 +61,7 @@ This will overwrite any data that happens to be on the target MicroSD card so ma
 
 **4)** Once the process is complete, you may get a computer popup warning that the MicroSD card is corrupted and needs to be formatted. This is expected as the file format is no longer compatible with a Windows or Mac computer.
 
-### Re-imaging **the BeagleBone**
+#### Re-imaging **the BeagleBone**
 
 Once you have your image card, you can use it to update or re-image the BeagleBone SG.
 
@@ -71,13 +71,13 @@ Once you have your image card, you can use it to update or re-image the BeagleBo
 
     <img src=".gitbook/assets/bbpower (1) (2).jpg" alt="" data-size="original">
 2. Insert the imaged microSD card in to the slot of the BeagleBone.
-3. **If this is the first time you are installing software** (or if you want to do a "clean" install) you must hold down the boot button for several seconds while powering on the SensorGnome. Otherwise, just plug in the BeagleBone and wait for it to boot up.![](.gitbook/assets/=beaglebone\_black\_image\_showing\_boot\_button.jpg)
+3. **If this is the first time you are installing software** (or if you want to do a "clean" install) you must hold down the boot button for several seconds while powering on the SensorGnome. Otherwise, just plug in the BeagleBone and wait for it to boot up.![](.gitbook/assets/=beaglebone_black_image_showing_boot_button.jpg)
 4.  Once powered on, the 4 blue LED lights above the mini USB connection will begin flashing in a sporadic/sporadic pattern. After a few seconds, all 4 LED’s will flash on/off in unison several times. This indicates that the process of writing the software to the BB is beginning.
 
     <img src=".gitbook/assets/leds_flash.gif" alt="" data-size="original">
 
-    &#x20;All 4 LED lights flash in unison when re-imaging begins
-5.  Then, the LEDs will begin flashing in a “crawling” or “wave” light pattern from one end to the other. This should continue for several minutes.&#x20;
+    All 4 LED lights flash in unison when re-imaging begins
+5.  Then, the LEDs will begin flashing in a “crawling” or “wave” light pattern from one end to the other. This should continue for several minutes.
 
     <img src=".gitbook/assets/leds_crawl.gif" alt="" data-size="original">
 6. When the process is complete, all 4 LEDs will light up and remain on. You can now power down the BB and remove the installation card.

@@ -10,7 +10,7 @@ In order to copy detection data from the SG, to check the SG’s live status in 
 
 {% tabs %}
 {% tab title="Raspberry Pi" %}
-### Raspberry Pi SensorGnome
+#### Raspberry Pi SensorGnome
 
 There are two methods available for connecting to a RPi SG: Wi-Fi Hotspot or Ethernet cable. The Wi-Fi hotspot can be more convenient, but not every RPi SG is equipped with this functionality. Ethernet cable should work in every case.
 
@@ -18,7 +18,7 @@ There are two methods available for connecting to a RPi SG: Wi-Fi Hotspot or Eth
 Make sure you have iTunes installed first. iTunes includes a networking tool called Bonjour which is required for this process. If you don't want iTunes you can download Bonjour on its own [here](https://downloads.digitaltrends.com/bonjour/windows). This is not required for Mac users as Bonjour comes preinstalled.
 {% endhint %}
 
-#### Option 1: Wi-Fi Hotspot
+**Option 1: Wi-Fi Hotspot**
 
 The RPi that powers the SG is capable of producing a local Wi-Fi hotspot that a computer or smartphone can connect to. This doesn’t connect to the internet, but simply forms a network connection between the SG and your computer.
 
@@ -49,16 +49,16 @@ The disadvantage is that activating the Wi-Fi hotspot via the button can be fini
 * You should now see the SensorGnome Web Interface
 
 {% hint style="info" %}
-The WiFi hotspot should deactivate automatically after about 30 minutes.&#x20;
+The WiFi hotspot should deactivate automatically after about 30 minutes.
 {% endhint %}
 
-#### Option 2: Ethernet Cable
+**Option 2: Ethernet Cable**
 
 An Ethernet cable is usually the most reliable way of connecting to a RPi SG, and doesn’t depend on having a Wi-Fi hotspot activation button. No configuration is needed on the RPi. However some configuration may be required on your computer.
 
 ![Ethernet cable](.gitbook/assets/ethernet.jpg)
 
-If you use a Windows computer, ensure that iTunes is installed. Installing iTunes also installs a networking tool called Bonjour that the SG relies on to establish the connection. If you don’t want to install iTunes, you can install [Bonjour by itself directly from Apple](https://support.apple.com/kb/DL999?locale=en\_CA). If you use a Mac computer, Bonjour should already be installed.
+If you use a Windows computer, ensure that iTunes is installed. Installing iTunes also installs a networking tool called Bonjour that the SG relies on to establish the connection. If you don’t want to install iTunes, you can install [Bonjour by itself directly from Apple](https://support.apple.com/kb/DL999?locale=en_CA). If you use a Mac computer, Bonjour should already be installed.
 
 **1)** Power on the RPi
 
@@ -74,7 +74,7 @@ If you use a Windows computer, ensure that iTunes is installed. Installing iTune
 {% endtab %}
 
 {% tab title="BeagleBone" %}
-### BeagleBone SensorGnome
+#### BeagleBone SensorGnome
 
 USB cable is usually the preferred method of connecting to a BeagleBone SG. The USB cable used is a Mini USB to USB cable. These aren’t as commonly found in day-to-day usage as they used to be but can still be found easily and for affordable prices online. Purchase a few so that you have a couple extras available.
 
@@ -103,10 +103,10 @@ Before connecting to a BeagleBone SG for the first time, it is likely you’ll n
 An inability to access the Web Interface may indicate issues with your SensorGnome. However there are a number of other potential causes. Here are a few suggestions as part of the troubleshooting process if you are running into issues.
 
 * If your SensorGnome is off-grid or powered with a non-standard power supply, see [Underpowered SensorGnomes](appendix/underpowered-sensorgnomes.md).
-* Check your power supply. Both the [RPi ](appendix/anatomy.md#rpi-lights)and [BB ](appendix/anatomy.md#bb-lights)have diagnostic LED lights to make visual confirmation of power supply easier.&#x20;
+* Check your power supply. Both the [RPi ](appendix/anatomy.md#rpi-lights)and [BB ](appendix/anatomy.md#bb-lights)have diagnostic LED lights to make visual confirmation of power supply easier.
 * Sometimes it takes a while for the connection to the SG to be established, especially for the RPi Ethernet connection which may take _up to a minute_ to establish. If you do not see the Web Interface, wait several seconds before trying again.
 * Ensure you are using the correct URL for that SensorGnome and connection method
-* If you try to access the Web Interface before the connection to the SG has been fully established, some browsers will automatically replace the `http://` prefix with `https://` or  add `www.`. Correct the URL in the address bar is  before trying again.
+* If you try to access the Web Interface before the connection to the SG has been fully established, some browsers will automatically replace the `http://` prefix with `https://` or add `www.`. Correct the URL in the address bar is before trying again.
 * Try a different connection method if you have the option
 * Make sure the cables you are using are connected properly. Try different cables if you have them.
 * Try a different USB port if applicable
@@ -115,8 +115,8 @@ An inability to access the Web Interface may indicate issues with your SensorGno
 * Try a different computer if you have one available. Preferably one that you've confirmed can actually connect to this type of SG
 * Try a different internet browser
 * Many newer Windows computers repeatedly reset BeagleBone driver settings. You can fix that following the instructions here: [restoring-beaglebone-drivers-on-windows.md](appendix/restoring-beaglebone-drivers-on-windows.md "mention")
-* Use [Bonjour Browser ](appendix/bonjourbrowser.md)to get the IP address of a connected Raspberry Pi SG&#x20;
+* Use [Bonjour Browser ](appendix/bonjourbrowser.md)to get the IP address of a connected Raspberry Pi SG
 * Re-image the SG (if it's a BeagleBone) or try a clean software version (if it's a Raspberry Pi). Instructions can be found in the [updating SG software section](updating.md).
 * If you just need to download data there a few other methods of getting this as a temporary solution (see [downloading detection data section](downloading.md))
-* If you still cannot access the Web Interface, you will not be able to confirm that the SG is running properly. Don’t leave an SG deployed in the field in this condition unless you have no other option.&#x20;
+* If you still cannot access the Web Interface, you will not be able to confirm that the SG is running properly. Don’t leave an SG deployed in the field in this condition unless you have no other option.
   * For BeagleBone SG's you can make a "rescue image" and run the SG directly from the software card. More details on making a rescue image can be found [here](appendix/rescue.md#running-a-bb-sg-from-the-rescue-image).
