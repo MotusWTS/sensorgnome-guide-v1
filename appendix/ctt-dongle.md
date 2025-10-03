@@ -4,10 +4,10 @@
 You are viewing the V1 Legacy SensorGnome user guide. This software has not been updated since 2018.
 {% endhint %}
 
-Once you have the SensorGnome loaded with the necessary software to detect CTT LifeTags/ PowerTags (i.e., it's "dual-mode"), you will require a USB receiver dongle for each antenna listening at 434 MHz. These are often referred to as "CTT Motus dongles." &#x20;
+Once you have the SensorGnome loaded with the necessary software to detect CTT LifeTags/ PowerTags (i.e., it's "dual-mode"), you will require a USB receiver dongle for each antenna listening at 434 MHz. These are often referred to as "CTT Motus dongles."
 
 {% hint style="info" %}
-_CTT stopped manufacturing these dongles in early 2023. However, they have generously provided the firmware and 3D printing schematics that make it possible to build and assemble your own. Please contact the Motus team at Birds Canada if you have an interest in purchasing fully assembed dongles._
+_CTT stopped manufacturing these dongles in early 2023. However, they have generously provided the firmware and 3D printing schematics that make it possible to build and assemble your own._&#x20;
 {% endhint %}
 
 **1)** Acquire the necessary components and files
@@ -21,7 +21,7 @@ _CTT stopped manufacturing these dongles in early 2023. However, they have gener
 
 {% file src="../.gitbook/assets/CTT_dongle_Feather_programmer_w_firmware.zip" %}
 
-* **CTT Dongle case 3D printing  STL files below**
+* **CTT Dongle case 3D printing STL files below**
 
 {% file src="../.gitbook/assets/CTT_dongle_case_STL_files.zip" %}
 
@@ -39,11 +39,11 @@ _CTT stopped manufacturing these dongles in early 2023. However, they have gener
 
 **7)** Press the `Program` button at the bottom of the window and wait until the program indicates the firmware installation is done. You may then close the program and disconnect the Feather device.
 
-**8)** Solder the uFL surface mount connector to the underside of the Feather ([see here for tips](https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module/antenna-options#ufl-antenna-2432562)).&#x20;
+**8)** Solder the uFL surface mount connector to the underside of the Feather ([see here for tips](https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module/antenna-options#ufl-antenna-2432562)).
 
 **9)** Print the body and lid of the CTT dongle case with your 3D printer.
 
-**10)** Install the SMA bulkhead first, tightening it securely and helping the bulkhead to fit into the hexagonal opening that fits its base.&#x20;
+**10)** Install the SMA bulkhead first, tightening it securely and helping the bulkhead to fit into the hexagonal opening that fits its base.
 
 <figure><img src="../.gitbook/assets/dongle_case.jpg" alt=""><figcaption><p>SMA bulkhead installed and tightened securely.</p></figcaption></figure>
 
@@ -59,4 +59,4 @@ _CTT stopped manufacturing these dongles in early 2023. However, they have gener
 
 <figure><img src="../.gitbook/assets/dongle_complete.jpg" alt=""><figcaption><p>Completed CTT Motus dongle, ready for installation in a SensorGnome.</p></figcaption></figure>
 
-**14)** To use with a SensorGnome, you will need a [USB-A to microUSB cable](https://www.amazon.com/6in-Micro-USB-Cable-6-inches/dp/B003YKX6WM), preferably 25cm or less. This may be the same one you used above during firmware installation. Connect to a USB port on the SensorGnome via the USB-A to microUSB cable. The antenna connects to the SMA connector, similarly to a FUNcube dongle.&#x20;
+**14)** To use with a SensorGnome, you will need a [USB-A to microUSB cable](https://www.amazon.com/6in-Micro-USB-Cable-6-inches/dp/B003YKX6WM), preferably 25cm or less. This may be the same one you used above during firmware installation. Connect to a USB port on the SensorGnome via the USB-A to microUSB cable. The antenna connects to the SMA connector, similarly to a FUNcube dongle.
